@@ -13,6 +13,7 @@ export default class HeroСard extends Component{
 						<div className = "card-body">
 							{this.props.data.desc}
 						</div>
+
 					</div>
 				</div>
 
