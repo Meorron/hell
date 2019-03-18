@@ -34,13 +34,13 @@ class App extends Component {
         {
           name:'superman',
           desc:'not enough to be proffesional? as Jonatan? bt is red pants are awesome',
-          img:"./images/superman.png"
+          img: "https://im7.kommersant.ru/ISSUES.PHOTO/WEEKEND/2018/020/spw20_introd.png"
         }
       ]
     }
   }
   render() {
-    let picsList = this.props.heroes.map(hero => {
+    let picsList = this.state.heroList.map(hero => {
         return hero.img;
     });
 
